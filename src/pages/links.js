@@ -54,7 +54,7 @@ const Links = () => {
 
       <div className="page links-page">
         {/* navbar */}
-        <NavForPages />
+        {/* <NavForPages /> */}
 
         <section className="section">
           <article className="links-info">

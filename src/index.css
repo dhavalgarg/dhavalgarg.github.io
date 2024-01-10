@@ -12,8 +12,8 @@ Variables
 :root {
   /* bcg */
   --toggle-color: #f4f6f0;
-  --nav-bcg: linear-gradient(rgba(160, 160, 160, 0.1), rgba(160, 160, 160, 0.1)),
-    url(./images/hero/hero-bcg-light.svg) center repeat fixed;
+  /* --nav-bcg: linear-gradient(rgba(160, 160, 160, 0.1), rgba(160, 160, 160, 0.1)),
+    url(./images/hero/hero-bcg-light.svg) center repeat fixed; */
   --hero-bcg: linear-gradient(
       rgba(160, 160, 160, 0.1),
       rgba(160, 160, 160, 0.1),
@@ -80,9 +80,9 @@ Variables
 }
 .dark {
   /* bcg */
-  --toggle-color: #fce570;
-  --nav-bcg: linear-gradient(rgba(4, 1, 1, 0.1), rgba(4, 1, 1, 0.1)),
-    url(./images/hero/hero-bcg-dark.svg) center repeat fixed;
+  /* --toggle-color: #fce570; */
+  /* --nav-bcg: linear-gradient(rgba(4, 1, 1, 0.1), rgba(4, 1, 1, 0.1)),
+    url(./images/hero/hero-bcg-dark.svg) center repeat fixed; */
   --hero-bcg: linear-gradient(
       rgba(4, 1, 1, 0.1),
       rgba(5, 5, 5, 0.1),
@@ -115,8 +115,8 @@ Variables
 .light {
   /* bcg */
   --toggle-color: #f4f6f0;
-  --nav-bcg: linear-gradient(rgba(160, 160, 160, 0.1), rgba(160, 160, 160, 0.1)),
-    url(./images/hero/hero-bcg-light.svg) center repeat fixed;
+  /* --nav-bcg: linear-gradient(rgba(160, 160, 160, 0.1), rgba(160, 160, 160, 0.1)),
+    url(./images/hero/hero-bcg-light.svg) center repeat fixed; */
   --hero-bcg: linear-gradient(
       rgba(160, 160, 160, 0.1),
       rgba(160, 160, 160, 0.1),
@@ -354,7 +354,7 @@ NAV ALERT
 ======================
 */
 
-.nav-alert {
+/* .nav-alert {
   background: var(--clr-primary-gradient);
   text-align: center;
   color: var(--clr-white);
@@ -364,7 +364,7 @@ NAV ALERT
 .nav-alert a {
   text-decoration: underline;
   color: white;
-}
+} */
 
 /* 
 ======================
@@ -384,7 +384,7 @@ NAVBAR
 } */
 
 nav {
-  background: var(--clr-body-bcg);
+  background: transparent;
   padding: 0.75rem 1rem;
   z-index: 100;
 }
@@ -493,7 +493,8 @@ nav {
 
 @media screen and (min-width: 792px) {
   nav {
-    background: var(--nav-bcg);
+    background: transparent;
+    backdrop-filter: blur(2px);
   }
   .nav-center {
     display: grid;

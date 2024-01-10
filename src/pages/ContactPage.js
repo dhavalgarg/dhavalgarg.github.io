@@ -12,7 +12,7 @@ const ContactPage = () => {
 
       <section className="page">
         {/* navbar */}
-        <NavForPages />
+        {/* <NavForPages /> */}
 
         <div className="page-center contact-page">
           {/* title */}

@@ -9,7 +9,7 @@ const ErrorPage = () => {
       <Head title={'404 | Page Not Found'} />
 
       <section className="page">
-        <NavForPages />
+        {/* <NavForPages /> */}
         <div className="error-page page-center">
           <div className="section-center ">
             <h2>OOPS! The page you're looking for doesn't exist 🙁</h2>

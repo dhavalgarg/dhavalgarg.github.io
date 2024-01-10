@@ -1,6 +1,6 @@
 import { NavAlert } from './NavAlert';
 import { Navbar } from './Navbar';
-import { NavForPages } from './NavForPages';
+// import { NavForPages } from './NavForPages';
 import { Sidebar } from './Sidebar';
 import { Hero } from './Hero';
 import { About } from './About';
@@ -23,7 +23,7 @@ export {
   // Projects,
   Skills,
   Contact,
-  NavForPages,
+  // NavForPages,
   ScrollToTop,
   Loading,
   SingleProject,

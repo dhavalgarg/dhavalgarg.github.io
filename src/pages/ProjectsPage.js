@@ -78,7 +78,7 @@ const ProjectsPage = () => {
 
       <section className="page">
         {/* navbar */}
-        <NavForPages />
+        {/* <NavForPages /> */}
 
         <div className="page-center projects-page">
           {/* title */}
