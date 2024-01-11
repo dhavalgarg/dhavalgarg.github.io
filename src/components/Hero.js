@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImg from '../images/hero/hero-img.svg';
+// import heroImg from '../images/hero/hero-img.svg';
 import { AppContext } from '../context';
 import { FaCode, FaEnvelope } from 'react-icons/fa';
 
