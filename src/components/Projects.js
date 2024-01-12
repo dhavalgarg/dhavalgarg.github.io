@@ -16,7 +16,7 @@ export const Projects = () => {
       id: 1,
       name: 'Multi-Model Demand Forecasting, Wegmans',
       description: 'Collaborated with Wegmans on a real-world retail data science project.Conducted exploratory data analysis (EDA) on a dataset of 96,000 sales records encompassing 108 products, revealing distinctive seasonal patterns and trends for each individual item.Integrated weather data and holiday effects to assess their impact on sales, addressed missing data through cleaning and imputation.Developed a forecasting pipeline employing Prophet, Random Forest, and XGBoost models to predict sales for three distinct timeframes (15 days, 3 months, and 6 months) for all items. Attained a significant improvement with a 52 % reduction in Mean Absolute Percentage Error (MAPE) compared to baseline model. Developed and documented code for seamless delivery to Wegmans.',
-      technologies: ['React', 'Node.js', 'MongoDB'],
+      technologies: ['Time Series', 'XGBoost','Random Forest','Prophet','Tableau','seaborn','matplotlib'],
       Programming_Language: ['Python', 'SQL'],
       githubURL: 'https://github.com/dhavalgarg',
     },
@@ -24,7 +24,7 @@ export const Projects = () => {
       id: 2,
       name: 'Prediction of Hourly Bike Usage for Citi Bike Stations in New York City',
       description: 'Created a comprehensive Machine Learning pipeline in PySpark and Databricks with Git integration, employing the Prophet model for precise hourly bike usage forecasting. Leveraged a dataset of one million bike usage records, implementing MLOps strategies for model performance enhancement and periodic retraining, ultimately enhancing resource allocation and the efficiency of the bike sharing program.',
-      technologies: ['React', 'Node.js', 'MongoDB'],
+      technologies: ['PySpark', 'DataBricks', 'Git','Prophet','MLFlow'],
       Programming_Language: ['Python', 'SQL'],
       githubURL: 'https://github.com/dhavalgarg/Prediction-of-Hourly-Bike-Usage-for-Citi-Bike-Stations-in-New-York-City',
     },
@@ -32,9 +32,17 @@ export const Projects = () => {
       id: 3,
       name: 'Podcast Recommender',
       description: 'Created dataset by converting podcast video content into audio format and applied advanced state-of-the-art Whisper model for accurate transcription. Designed and implemented a podcast recommendation system powered by FAISS similarity search, enhancing content discovery and user engagement.',
-      technologies: ['React', 'Node.js', 'MongoDB'],
+      technologies: ['PyTorch', 'transformers', 'huggingface','FAISS','pipeline','wordcloud','matplotlib'],
       Programming_Language: ['Python'],
       githubURL: 'https://github.com/dhavalgarg/Podcast-Recommender-',
+    },
+    {
+      id: 4,
+      name: 'Language Model Comparison for Customer Review',
+      description: 'Created custom dataset from a publicly generated dataset using ChatGPT API. Compared different lanuage models like Bert-Base, Roberta-base etc through SHAP framework by Explainable AI. From the results of SHAP framework, found that ChatGPT paraphrases tend to have slightly bigger and uncommon words. Also observed that the paraphrases were full of punctuation marks. Moreover, because the words used by ChatGPT are sophisticated, the language seems to be more formal. All these observations are based on the assumption that humans have simply asked ChatGPT to paraphrase a sentence and without giving any constraints for the paraphrasing task such as - "paraphrase in simple words", "paraphrase in 10 words", etc.',
+      technologies: ['PyTorch', 'transformers', 'huggingface','FAISS','pipeline','wordcloud','matplotlib','DistilBert','Bert-Base','Roberta-Base'],
+      Programming_Language: ['Python'],
+      githubURL: 'https://github.com/dhavalgarg/Language-model-comparison-for-customer-reviews',
     }
   ];  
 

@@ -384,7 +384,7 @@ NAVBAR
 } */
 
 nav {
-  background: transparent;
+  background: black;
   padding: 0.75rem 1rem;
   z-index: 100;
 }
@@ -449,8 +449,8 @@ nav {
 }
 
 .logo h5 {
-  /* color: #ffffff; */
-  color: #000;
+  color: #ffffff;
+  /* color: #000; */
   font-size: 1.75rem;
   letter-spacing: -1px;
   transition: var(--transition);
@@ -1129,7 +1129,7 @@ SKILLS
 
 .skills-title {
   display: inline-block;
-  background: var(--clr-body-bcg);
+  background: black;
   padding: 0 0.75rem;
   margin-bottom: 0;
 }
@@ -1138,7 +1138,7 @@ SKILLS
   height: 2px;
   background: var(--clr-primary-gradient);
   position: absolute;
-  width: 60%;
+  width: 70%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1180,6 +1180,8 @@ CONTACT
 }
 .contact-info {
   padding: 2rem;
+  /* color: #008037; */
+  
 }
 .contact-info h2 {
   text-shadow: 2px 2px 2px var(--clr-body-bcg);
@@ -1187,13 +1189,19 @@ CONTACT
 }
 .contact-info p {
   max-width: 35rem;
+  /* color: #008037; */
 }
 
 .social-icons {
   background: #202020;
+  /* padding-left: px; */
 }
+
+/*{for social link text}*/
 .social-icons h4 {
   display: none;
+  /* color: #008037; */
+  padding-right: 165px;
 }
 .social-icons-container {
   display: grid;
@@ -1724,13 +1732,15 @@ LATEST WORKS
   overflow: hidden; /* Ensure overflow is hidden for shadow effect */
   box-shadow: 10 4px 8px rgba(138, 212, 144, 0.1); /*Box shadow for a subtle lift */
   backdrop-filter: blur(3px);
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(155, 245, 166));
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(82, 151, 90));
   transition:.6s;
   /* transform: rotatex(75deg) translatey(-200px) translatez(-100px); */
+
 }
 
 .project_name:hover{
   transform: translate3D(0,-1px,0) scale(1.03);
+  box-shadow: 0 0 20px 15px #226531;
 
 }
 
