@@ -17,7 +17,7 @@ export const Hero = () => {
             hey,<span> I'm Dhaval</span>
           </h1>
           <p>
-            "Turning Data into Insights, One Algorthim at a Time."
+            "Turning Data into Insights, One Algorithm at a Time."
           </p>
           <div className="hero-btn-container">
             <a
