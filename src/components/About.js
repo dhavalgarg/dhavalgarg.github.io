@@ -53,7 +53,6 @@ export const About = () => {
             <strong> recent graduate</strong> from University of Rochester in Data Science. I have worked on several projects that involve <strong>Machine Learning</strong>, <strong>Data Analytics</strong>,{' '}
             <strong>Data Visualization</strong>, and <strong>MLOps</strong>.
             <br />
-            
             <br />
             <br />
             When I'm not coding, I enjoy chilling with sitcoms or getting lost in a good book. 

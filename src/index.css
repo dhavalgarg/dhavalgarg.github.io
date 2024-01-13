@@ -496,7 +496,7 @@ nav {
 @media screen and (min-width: 792px) {
   nav {
     background: transparent;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(4px);
   }
   .nav-center {
     display: grid;

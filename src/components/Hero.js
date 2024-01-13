@@ -17,7 +17,7 @@ export const Hero = () => {
             hey,<span> I'm Dhaval</span>
           </h1>
           <p>
-            I am Data Scientist. Currently,I'm looking to be part of a team and use my skills .
+            "Turning Data into Insights, One Algorthim at a Time."
           </p>
           <div className="hero-btn-container">
             <a
